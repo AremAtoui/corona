@@ -1,0 +1,59 @@
+.dashboard_sidebar {
+    width: 175px;
+    margin-left: 20px;
+    background: #badfdf;
+    padding: 6px;
+    height: 500px;
+}
+.Aa .Btn {
+    width: 50px;
+    background: #0b5ed7;
+    border-radius: 3px;
+    margin-top: 9px;
+}
+/* .Aa1{
+    background-image: url( https://images.pexels.com/photos/5407206/pexels-photo-5407206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+} */
+.dashboard_menu_area{
+    width: 85px;
+}
+table {
+    caption-side: bottom;
+    border-collapse: collapse;
+    /* margin-left: 0px; */
+    margin-left: -125px;
+    width: 1050px;
+    margin-top: -200px;
+}
+.dashboard_common_table{
+    
+    width: 500px;
+}
+  /* Estilos para pantallas medianas */
+@media (max-width: 1200px) {
+    .dashboard_sidebar {
+        width: 150px; /* Ajustar el ancho de la barra lateral */
+        margin-left: 10px;
+    }
+
+    .dashboard_menu_area {
+        display: none; /* Ocultar el área del menú en pantallas pequeñas */
+    }
+
+    table {
+        margin-left: 0; /* Eliminar el margen izquierdo negativo */
+    }
+
+    .dashboard_common_table {
+        width: 100%; /* Hacer que la tabla ocupe todo el ancho disponible */
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .dashboard_sidebar {
+        display: none; /* Ocultar completamente la barra lateral en pantallas pequeñas */
+    }
+
+    /* Puedes seguir ajustando los estilos según tus necesidades */
+}

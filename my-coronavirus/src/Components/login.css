@@ -1,0 +1,102 @@
+
+
+.SOF {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    background-image: url("https://images.pexels.com/photos/8376280/pexels-photo-8376280.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    height: 649px;
+    width: 100%;
+  }
+  /* Full-width input fields */
+
+    input[type=text], input[type=password] {
+      width: 250px;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #e1dada;
+      border-radius: 5px;
+  
+  }
+  
+  input[type=text]:focus,
+  input[type=password]:focus {
+    background: #e1dada;
+    outline: none;
+  }
+  
+  hr {
+    /* border: 1px solid #f1f1f1; */
+    margin-bottom: 25px;
+    color: #000;
+    height: 4px;
+  }
+  
+  /* Set a style for all buttons */
+  
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn,
+  .signupbtn {
+    float: left;
+    width: 50%;
+    background-color: #04aa6d;
+    height: 50px;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  .input-group {
+    position: relative !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: stretch;
+    width: 100% !important;
+    margin-top: -76px;
+    /* margin-left: 380px; */
+  }
+  
+  button {
+    /* background-color: #04AA6D; */
+    padding: -9px -3px;
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    background-color: #ddd;
+  }
+  
+  .btn:hover {
+    color: var(--bs-btn-hover-color);
+    /* background-color: var(--bs-btn-hover-bg); */
+    /* border-color: var(--bs-btn-hover-border-color); */
+    width: 0px;
+  }
